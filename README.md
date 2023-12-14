@@ -1,8 +1,21 @@
-This is the *Desktop Connect Four* project I made myself.
+## Description
 
+Met veel plezier heb ik het Java-project *Desktop Connect Four* gemaakt op Hyperskill (https://hyperskill.org/projects/226). Het spel is een desktop-applicatie die gebruik maakt van de JFrame library en Swing components.
 
-<p>Tired of playing Tic-Tac-Toe? Want something a little more challenging? Connect Four is a great game that fuses the complexity of a larger game board and the need to line up more pieces. In this project, you will create a version of the game with a graphical user interface that you can run on your computer.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/226?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/226</a>
+Deze repository bevat het resultaat.
 
-Here's the link to the project: https://hyperskill.org/projects/226
+Om te groeien als developer zou ik graag feedback ontvangen van gebruikers en andere developers, om vervolgens te ervaren hoe het is om nieuwe features te implementeren in bestaande code.
+Ik zou je ontzettend dankbaar zijn als je het spel even zou spelen en daarna aanbevelingen aan mij terugkoppelt.
 
-Check out my profile: https://hyperskill.org/profile/573295829
+Aanbevelingen kun je achterlaten als suggested features op dit trello board: https://trello.com/b/EpZYvSe8/desktop-connect-four-ernstjan-hoek
+
+## Instructions
+Gebruik het volgende commando om de git repository te clonen.
+```
+git clone <url> 
+```
+
+Vervolgens kun je jouw eigen IDE gebruiken om het project vanuit de class ApplicationRunner te starten
+
+## Known-issues:
+Soms verschijnen niet alle velden direct op het scherm, dit kun je oplossen door de window van de applicatie een klein beetje te vergroten/verkleinen.
