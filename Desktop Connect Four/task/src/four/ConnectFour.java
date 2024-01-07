@@ -39,7 +39,6 @@ public class ConnectFour extends JFrame {
         getContentPane().add(gameGrid, BorderLayout.CENTER);
         getContentPane().add(resetPanel, BorderLayout.SOUTH);
     }
-
     void resetFields() {
         this.winner = false;
         this.turn = new Turn();
@@ -74,9 +73,7 @@ public class ConnectFour extends JFrame {
                 field.setBackground(this.turn.value.getColor());
             }
         }
-
     }
-
     private ArrayList<ConnectFourField> counterHelper(ConnectFourField startField, int yValue, int xValue) {
         int checkX = startField.x + xValue; 
         int checkY = startField.y + yValue;
@@ -95,7 +92,6 @@ public class ConnectFour extends JFrame {
         return fieldList;
     }
 }
-
 class ResetButton extends JButton {
     ResetButton(ConnectFour game) {
         setName("ButtonReset");
@@ -171,6 +167,5 @@ class Turn {
         java.awt.Color getColor() {
             return color;
         }
-
     }
 }
